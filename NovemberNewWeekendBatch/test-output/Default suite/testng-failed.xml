@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.project.NovemberNewWeekendBatch.TestDependency">
+      <class name="autoit.FileUpload">
         <methods>
-          <include name="orange"/>
-          <include name="blue"/>
-          <include name="white"/>
-          <include name="green"/>
+          <include name="beforeMethod"/>
+          <include name="fileupload"/>
+          <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.project.NovemberNewWeekendBatch.TestDependency -->
+      </class> <!-- autoit.FileUpload -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
